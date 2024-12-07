@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('bruno-martins-OhJmwB4XWLE-unsplash.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+
+}
+.box {
+    position: relative;
+    display: flex; 
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.57);
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    top: 10%;
+}
+#generate{
+    position: absolute;
+    background-color: rgba(217, 192, 115, 0.6);
+    height:4.8vh;
+    width:30%;
+    top:20%;
+    left:35%;
+    font-size:100%;
+    border-radius: 5px;
+}
+#userName,#Computer{
+    position: absolute;
+    left:5%;
+    top:8%;
+    height: 4.5vh;
+    width: 29%;
+    font-size: 130%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+}
+#Computer{
+    left:66%;
+}
+#round{
+    position: absolute;
+    color:white;
+    top:5%;
+}
+#userNum1,#userNum2,#userNum3,#compNum1,
+#compNum2,#compNum3,#userRes, #compRes{
+    position: absolute;
+    left:5%;
+    top:10%;
+    height: 4.5vh;
+    width: 29%;
+    font-size: 130%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: white;
+}
